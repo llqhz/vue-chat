@@ -12,7 +12,7 @@
         <!--这里的 search 组件的样式需要修改一下-->
         <search></search>
         <section class="weui-cells">
-            <template v-for="groupInfo in groupList">
+            <template v-for="groupInfo in groupList" >
                 <a class="weui-cell weui-cell_access">
                     <div class="weui-cell__hd header-box">
                         <div class="header multi-header">
@@ -47,6 +47,7 @@
                         temp.push(this.$store.state.msgList.baseMsg[i])
                     }
                 }
+                console.log(temp);
                 return temp
             }
         }

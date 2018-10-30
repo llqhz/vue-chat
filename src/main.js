@@ -16,7 +16,7 @@ Vue.config.productionTip = false //将此值设置为 false ,会关闭 Vue 启�
 
 FastClick.attach(document.body)
 
-new Vue({
+window.app =  new Vue({
         el: '#app',
         router,
         store,
